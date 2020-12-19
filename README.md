@@ -7,8 +7,9 @@ The idea for this repo was just to test out how to make a simple CNN with torch,
 - ONNX single inference
 - Added batch inference to torch
 - Added resnet50 backbone for trasnfer learning
+- Added feature visualization using PCA and tSNE
 
 ## Things to do
 - [x] Add backbone such as resnet or mobile net
 - [x] Convert to ONNX and check the results
-- [ ] Use tSNE to visualize the classification results (check if any outliers)
+- [x] Use tSNE, PCA to visualize the classification results (check if any outliers)
